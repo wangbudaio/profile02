@@ -21,6 +21,8 @@ object window {
     value.flatMap(_.split(" ")).window(Seconds(12),Seconds(6)).countByValue().print()
     context.start()
     context.awaitTermination()
+
+    //shi injcdxi
   }
 
 }
